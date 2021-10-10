@@ -16,17 +16,11 @@ def main():
     else:
         print("Element is not present in array")
 
-
 def create_array():
     n = int(input("Enter size of array"))
     for i in range(0, n):
         arr.append(int(input("Enter the elements of array : ")))
     return arr
 
-
-
-__name__ == "__main__"
-
 arr = []
-
 main()

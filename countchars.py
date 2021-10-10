@@ -15,3 +15,5 @@ def main():
     d = countchars(s)
     for c in d:
         print("{} occurs {} times".format(c, d[c]))
+
+main()
