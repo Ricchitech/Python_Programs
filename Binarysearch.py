@@ -8,8 +8,8 @@ def binary_search(list1):
     end = len(list1) - 1
     found = False
     while start <= end and not found:
-        mid = (start + end) // 2
-        if list1[mid] == search:
+        mid = (start + end) // 2 #integer division to get the middle index
+        if list1[mid] == search: #if the element is found
             found = True
         else:
             if search < list1[mid]:
@@ -22,10 +22,10 @@ def binary_search(list1):
         print("Element not found")
 
 def create_list():
-    n=int(input("Enter the size of list: "))
+    n=int(input("Enter the size of list: ")) #size of list
     list1 = []
     for i in range(n):
-        list1.append(int(input("Enter element : ")))
-    return binary_search(list1)
+        list1.append(int(input("Enter element : "))) #append() method adds an element at the end of the list
+    return binary_search(list1) #calling the function to perform binary search
 
 create_list()
