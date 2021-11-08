@@ -1,3 +1,4 @@
+#List Operations
 def ListOperations():
     list=[]
     print("Empty list",list)
@@ -27,10 +28,11 @@ def ListOperations():
     print(My_List.count('e')) #count the number of times 'e' appears in the list
     print(My_List.count('A')) #count the number of times 'A' appears in the list
 
+#Tuple Operations
 def TuplesOperations():
     Tuple1=('Hello','Hiiii','How','Hee')
     print(Tuple1)
-    Tuple2=('A','B','C','D','E')
+    Tuple2=('A','B','C','D','E','E')
     print(Tuple2)
 
     print("Concatenating two tuples :-",Tuple1+Tuple2)
@@ -42,8 +44,8 @@ def TuplesOperations():
     print("Length of Tuple2")
     print(len(Tuple2))
 
-    print("returns the count total number of time word is repeated in list")
-    print(Tuple2.count('C'))
+    print("returns the count total number of time word is repeated in Tuple")
+    print(Tuple2.count('E'))
 
     my_tuple=("mouse",[8,4,6],(1,2,3))
     print(my_tuple)
@@ -55,7 +57,7 @@ def TuplesOperations():
 
     print('How' in Tuple1)
 
-
+#dictionary Operations
 def DictOperations():
     My_Dict={'name':'Bharathraj','srn':'R19CA620','Course':'MS','Section':'A','Branch':'CSA'}
     print("Print Directory :- ",My_Dict)
@@ -68,7 +70,7 @@ def DictOperations():
     print(My_Dict)
 
     print(My_Dict.keys())
-    print(My_Dict.get("name","Shahid"))
+    print(My_Dict.get('name'))
 
     print(My_Dict.popitem())
     print(My_Dict)

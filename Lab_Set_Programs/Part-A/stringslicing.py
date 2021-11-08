@@ -1,7 +1,7 @@
 #String slicing methods for
 
-#string=input("Enter a string:\t")
-string="Reva University"
+string=input("Enter a string:\t")
+#string="Reva University"
 print("The string is:",string)
 print("\nAfter applying the slicing on string:")
 print("The first character of the string is:",string[0])

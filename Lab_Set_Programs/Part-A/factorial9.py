@@ -1,6 +1,6 @@
-#Factorial program with function and without function
+#Factorial program with recursion function and without recursion function
 
-def factusingfunction():
+def factusingrecursion():
     def factorial(n):
         if n == 0:
             return 1
@@ -9,11 +9,12 @@ def factusingfunction():
     n = int(input("Enter a number to compute the factorial : "))
     print("Factorial of",n,"is",factorial(n))
 
-def factwithoutfunction():
+
+def withoutrecursion():
     n = int(input("Enter a number to compute the factorial : "))
     fact = 1
     if n<0:
-        print("Sorry, Factorial does notexist forc negative number")
+        print("Sorry, Factorial does not exist for negative number")
     elif n == 0:
         print("Factorial of 0 is 1")
     else:
@@ -22,12 +23,12 @@ def factwithoutfunction():
         print("Factorial of",n,"is",fact)
 
 while True:
-    print("\n1. Factorial using function\n2. Factorial without function\n3. Exit")
+    print("\n1. Factorial using Recursion function\n2. Factorial without Recursion function\n3. Exit")
     choice = int(input("Enter your choice : "))
     if choice == 1:
-        factusingfunction()
+        factusingrecursion()
     elif choice == 2:
-        factwithoutfunction()
+        withoutrecursion()
     elif choice == 3:
         print("Thank you")
         break
