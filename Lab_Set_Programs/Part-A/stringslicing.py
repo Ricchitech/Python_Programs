@@ -1,4 +1,4 @@
-#String slicing methods for
+#Program 1 : String slicing program
 
 string=input("Enter a string:\t")
 #string="Reva University"

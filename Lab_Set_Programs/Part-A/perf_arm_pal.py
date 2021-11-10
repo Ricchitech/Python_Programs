@@ -1,3 +1,5 @@
+#Program 6 : Perfect number , armstrong number , Palindrom number
+
 #Find given number is Armstrong number or not
 def armstrong():
     num = int(input("Enter Number:"))

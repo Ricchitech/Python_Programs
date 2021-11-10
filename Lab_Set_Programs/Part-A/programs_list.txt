@@ -1,0 +1,10 @@
+Program 1 : String slicing 
+Program 2 : Addition of two numbers 
+Program 3 : Quadratic Equation
+Program 4 : Find the largest of five numbers 
+Program 5 : Program to find the largest of two numbers or largest of three numbers menu driven program
+Program 6 : Perfect number , armstrong number , Palindrom number
+Program 7 : Different Operation on list,tuple,dictiontory
+Program 8 : Factorial program with recurssion and without recurrsion
+Program 9 : Program to write the contents into a file and read back
+Program 10 : Program to demonstrate the class property

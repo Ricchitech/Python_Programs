@@ -1,6 +1,6 @@
-#Program on class
+#Program 10 : Program to demonstrate the class property
 
-#@class professional
+#class professional
 class professional:
     def __init__(self,n,o):
         self.name=n
@@ -24,7 +24,7 @@ ads.speaks()
 
 print("\n")
 
-# @Class customer
+# Class customer
 class customer:
     def __init__(self,name,balance=0):
         self.name=name
@@ -87,6 +87,4 @@ print(a._CSStudent__roll)
 print(b._CSStudent__roll)
 print(c._CSStudent__roll)
 
-
-#print(CSStudent.count)
 CSStudent.status()

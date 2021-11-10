@@ -1,4 +1,4 @@
-#demonstrate the usage of math and cmath module (for ex: roots of the quadratic equation)
+#Program 3 : Quadratic Equation using math and cmath functions
 
 import math,cmath
 def quadratic(a,b,d):
