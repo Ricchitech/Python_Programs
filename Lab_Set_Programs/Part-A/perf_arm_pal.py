@@ -46,7 +46,7 @@ while(True):
     print("1.Armstrong Number")
     print("2.Palindrome Number")
     print("3.Perfect Number")
-    print("4.Exit")
+    print("4.Exit\n")
     choice=int(input("Enter your choice:"))
     if choice==1:
         armstrong()

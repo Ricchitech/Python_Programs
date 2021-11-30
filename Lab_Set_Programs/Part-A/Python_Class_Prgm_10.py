@@ -18,9 +18,9 @@ chn=professional("Chinnu","Project Manager")
 chn.do_work()
 chn.speaks()
 
-ads = professional("Adarsh", "Software Architect")
-ads.do_work()
-ads.speaks()
+# ads = professional("Adarsh", "Software Architect")
+# ads.do_work()
+# ads.speaks()
 
 print("\n")
 
@@ -41,8 +41,8 @@ class customer:
 
 lee=customer("Leela",500000)
 print(lee.name,"has",lee.balance,"balance")
-print("The balance in the account aftre withdrawal is",lee.withdraw(300000))
-print("The balance in the account aftre deposit is",lee.deposit(500000))
+print("The balance in the account after withdrawal is",lee.withdraw(300000))
+print("The balance in the account after deposit is",lee.deposit(500000))
 
 print("\n")
 
